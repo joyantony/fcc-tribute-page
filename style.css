@@ -1,14 +1,16 @@
 body{
-    padding-top: 50px;
     font-family: 'Trebuchet MS', sans-serif;
+    padding: 3.125rem 0 0 0;
+    margin: 0;
 }
 
 .container{
     background: #eeeeee;
+    /* padding-top: 35px;
+    padding-bottom: 25px; */
+    padding: 2.1875rem 0 1.5625rem 0;
+    margin: 0 .5rem 0 .5rem;
     border-radius: 5px;
-    padding-top: 35px;
-    padding-bottom: 25px;
-    margin-bottom: 30px;
 }
 
 .text-center{
@@ -78,6 +80,18 @@ blockquote{
     color: rgb(119, 119, 119);
 }
 
+
+footer > .container{
+    background: #8f8f8f;
+    padding: 1.25rem 0 1.25rem 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+footer  p{
+    margin: .25rem 0 .25rem 0;
+}
+
 @media (max-width: 768px){
     #img-caption{
         width: auto;
@@ -98,4 +112,12 @@ blockquote{
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    footer > .container{
+        background: #8f8f8f;
+        padding: 1rem 0 1rem 0;
+        border-radius: 0;
+        margin: 0;
+    }
+
 }
